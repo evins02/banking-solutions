@@ -6,10 +6,10 @@ window.SOLUTIONS = [
   {
     id: 'creditflow',
     name: 'CreditFlow',
-    tagline: 'Vorprüfung von Kreditdossiers',
+    tagline: 'Arbeitsassistent Immobilienfinanzierung',
     description:
-      'Die Filiale prüft Kreditdossiers vor der Einreichung: Checkliste für Dokumente, Sicherheiten, Auszahlungsbedingungen und Hypothekartranchen – mit den Anforderungen von Credit Office und Credit Operations auf einen Blick.',
-    features: ['Dossier-Readiness', 'Anforderungen CO & OPS', 'Meinungsverschiedenheiten mit Quellen'],
+      'Führt Kundenstamm, Antrag und Unterlagen zusammen und prüft Kreditdossiers vor der Übergabe ans Credit Office in zehn Punkten auf Lücken und Widersprüche – jeder Wert mit Quelle. Rückfragen bleiben am Prüfpunkt nachvollziehbar.',
+    features: ['10 Prüfungen mit Quellenangabe', 'Fehlend · Widerspruch · nicht prüfbar', 'Rückfragen mit Einreichungsstand'],
     url: 'https://creditflow-opal.vercel.app/',
     status: 'live',
     icon: 'folder',
