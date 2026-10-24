@@ -10,7 +10,7 @@ window.SOLUTIONS = [
     description:
       'Die Filiale prüft Kreditdossiers vor der Einreichung: Checkliste für Dokumente, Sicherheiten, Auszahlungsbedingungen und Hypothekartranchen – mit den Anforderungen von Credit Office und Credit Operations auf einen Blick.',
     features: ['Dossier-Readiness', 'Anforderungen CO & OPS', 'Meinungsverschiedenheiten mit Quellen'],
-    url: 'https://creditflow.vercel.app',
+    url: 'https://creditflow-opal.vercel.app/',
     status: 'live',
     icon: 'folder',
     accent: '#1546d6',
@@ -18,10 +18,10 @@ window.SOLUTIONS = [
   {
     id: 'baucheck',
     name: 'BauCheck',
-    tagline: 'Prüfung von Bauprojekten',
+    tagline: 'Baufortschritt prüfen ohne Baustellenbesuch',
     description:
-      'Strukturierte Prüfung von Bau- und Immobilienprojekten im Finanzierungsprozess – Unterlagen, Baufortschritt und offene Punkte übersichtlich an einem Ort.',
-    features: ['Bauprojekte', 'Unterlagen', 'Offene Punkte'],
+      'Vor jeder Baukredit-Tranche fordert die Bank per befristetem Link geführte Fotonachweise zur Bauetappe an. Der Bauherr dokumentiert per Handy ohne Registrierung, die Bank prüft in der Inbox – und empfiehlt nur bei Bedarf einen Vor-Ort-Besuch. Keine Auszahlung, nur der Nachweis.',
+    features: ['Geführte Fotonachweise', 'Prüf-Inbox mit Plausibilitätshinweisen', 'Lückenloses Protokoll'],
     url: 'https://bau-check-one.vercel.app/',
     status: 'live',
     icon: 'building',

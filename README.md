@@ -4,8 +4,8 @@ Portalseite für Demo-Lösungen für Schweizer Banken. Verlinkt auf eigenständi
 
 | Lösung | Beschreibung | URL |
 | --- | --- | --- |
-| CreditFlow | Vorprüfung von Kreditdossiers | https://creditflow.vercel.app |
-| BauCheck | Prüfung von Bauprojekten | https://bau-check-one.vercel.app/ |
+| CreditFlow | Vorprüfung von Kreditdossiers | https://creditflow-opal.vercel.app/ |
+| BauCheck | Baufortschritt bei Baukrediten per Fotonachweis prüfen | https://bau-check-one.vercel.app/ |
 
 Reine statische Seite (HTML/CSS/JS), kein Build nötig.
 
