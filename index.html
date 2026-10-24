@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de-CH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Solutions</title>
+    <meta name="description" content="Digitale Demo-Lösungen für Schweizer Banken – CreditFlow, BauCheck und weitere." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="wrap nav-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark" aria-hidden="true"></span>
+          Banking <span>Solutions</span>
+        </a>
+        <nav>
+          <a href="#loesungen">Lösungen</a>
+          <a href="#grundsaetze">Grundsätze</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <p class="eyebrow">Einfacher · Schneller · Transparenter · Für die Schweiz</p>
+          <h1>Digitale Lösungen für <em>Schweizer Banken</em></h1>
+          <p class="lead">
+            Prototypen, die bestehende Bankprozesse ergänzen – von der Kreditvorprüfung bis zur Prüfung von Bauprojekten.
+            Mehr Transparenz für sichere Entscheidungen, die weiterhin Menschen treffen.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#loesungen">Lösungen ansehen</a>
+            <span class="demo-flag">Demo · ausschliesslich fiktive Daten</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="loesungen" class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Lösungen</h2>
+            <p>Jede Lösung läuft eigenständig und öffnet sich in einem neuen Tab.</p>
+          </div>
+          <div class="grid" id="solutions"></div>
+          <noscript>
+            <ul class="fallback">
+              <li><a href="https://creditflow.vercel.app">CreditFlow – Vorprüfung von Kreditdossiers</a></li>
+              <li><a href="https://bau-check-one.vercel.app/">BauCheck – Prüfung von Bauprojekten</a></li>
+            </ul>
+          </noscript>
+        </div>
+      </section>
+
+      <section id="grundsaetze" class="section alt">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Grundsätze</h2>
+            <p>Gilt für alle Lösungen auf dieser Seite.</p>
+          </div>
+          <div class="principles">
+            <article>
+              <div class="p-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z" /><path d="M3 13l9 5 9-5" /></svg>
+              </div>
+              <h3>Ergänzen statt ersetzen</h3>
+              <p>Die Lösungen arbeiten neben bestehenden Kern- und Kreditsystemen und verweisen auf diese, statt Daten zu duplizieren.</p>
+            </article>
+            <article>
+              <div class="p-icon">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" /><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" /></svg>
+              </div>
+              <h3>Der Mensch entscheidet</h3>
+              <p>Keine automatischen Kreditentscheide. Die Werkzeuge schaffen Übersicht – entschieden wird gemäss Kompetenzordnung.</p>
+            </article>
+            <article>
+              <div class="p-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" /><path d="M9 12l2 2 4-4" /></svg>
+              </div>
+              <h3>Fiktive Daten</h3>
+              <p>Alle Demos verwenden ausschliesslich erfundene Bank-, Kunden- und Personendaten.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <span><strong>Banking Solutions</strong> · Demo-Prototypen</span>
+        <span>Keine produktive Nutzung · keine echten Kundendaten</span>
+      </div>
+    </footer>
+
+    <script src="solutions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
