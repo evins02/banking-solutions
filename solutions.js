@@ -28,6 +28,18 @@ window.SOLUTIONS = [
     accent: '#0b8a8f',
   },
   {
+    id: 'kyc-workbench',
+    name: 'KYC & Compliance Workbench',
+    tagline: 'Onboarding, AML-Alarme und KYC-Überprüfung',
+    description:
+      'Firmenkunden-Onboarding mit Handelsregister-Vorbefüllung, Transparenzregister-Abgleich und Vier-Augen-Freigabe, geführte Prüfung von AML-Alarmen mit Qualitätsprüfung der Begründung sowie periodische und ereignisgesteuerte KYC-Überprüfung – jede Aktion im Audit-Trail.',
+    features: ['Onboarding mit Kundenportal', 'Alarmprüfung mit MROS-Entwurf', 'Laufendes KYC bei Ereignissen'],
+    url: '',
+    status: 'planned',
+    icon: 'chart',
+    accent: '#0e1a36',
+  },
+  {
     id: 'next',
     name: 'Weitere Lösungen',
     tagline: 'In Vorbereitung',
