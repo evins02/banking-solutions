@@ -34,8 +34,8 @@ window.SOLUTIONS = [
     description:
       'Firmenkunden-Onboarding mit Handelsregister-Vorbefüllung, Transparenzregister-Abgleich und Vier-Augen-Freigabe, geführte Prüfung von AML-Alarmen mit Qualitätsprüfung der Begründung sowie periodische und ereignisgesteuerte KYC-Überprüfung – jede Aktion im Audit-Trail.',
     features: ['Onboarding mit Kundenportal', 'Alarmprüfung mit MROS-Entwurf', 'Laufendes KYC bei Ereignissen'],
-    url: '',
-    status: 'planned',
+    url: 'https://banking-solutions-6ils.vercel.app/',
+    status: 'live',
     icon: 'chart',
     accent: '#0e1a36',
   },
