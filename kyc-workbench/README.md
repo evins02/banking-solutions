@@ -59,4 +59,6 @@ Technik: React 19, TypeScript, Tailwind CSS 4, Recharts, lucide-react, Vite.
 
 ## Deployment auf Vercel
 
-Neues Projekt aus diesem Repository, **Root Directory `kyc-workbench`**, Framework Preset **Vite** (Build `npm run build`, Output `dist`). Danach die URL in `../solutions.js` eintragen und `status: 'live'` setzen.
+Live: https://banking-solutions-6ils.vercel.app/
+
+Eigenes Vercel-Projekt aus diesem Repository, **Root Directory `kyc-workbench`**, Framework Preset **Vite** (Build `npm run build`, Output `dist`). Jeder Push auf `main` löst ein neues Deployment aus.

@@ -6,7 +6,7 @@ Portalseite für Demo-Lösungen für Schweizer Banken. Verlinkt auf eigenständi
 | --- | --- | --- |
 | CreditFlow | Vorprüfung von Kreditdossiers | https://creditflow-opal.vercel.app/ |
 | BauCheck | Baufortschritt bei Baukrediten per Fotonachweis prüfen | https://bau-check-one.vercel.app/ |
-| KYC & Compliance Workbench | Onboarding Firmenkunden, AML-Alarmprüfung, KYC-Überprüfung | noch nicht deployt – Quellcode in [`kyc-workbench/`](kyc-workbench/) |
+| KYC & Compliance Workbench | Onboarding Firmenkunden, AML-Alarmprüfung, KYC-Überprüfung | https://banking-solutions-6ils.vercel.app/ (Quellcode in [`kyc-workbench/`](kyc-workbench/)) |
 
 Reine statische Seite (HTML/CSS/JS), kein Build nötig. Ausnahme: `kyc-workbench/` ist eine eigenständige React-App mit eigenem Build (siehe deren README).
 
