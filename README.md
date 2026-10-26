@@ -4,7 +4,7 @@ Portalseite für Demo-Lösungen für Schweizer Banken. Verlinkt auf eigenständi
 
 | Lösung | Beschreibung | URL |
 | --- | --- | --- |
-| CreditFlow | Vorprüfung von Kreditdossiers | https://creditflow-opal.vercel.app/ |
+| CreditFlow | Vorbereitung und Qualitätsprüfung von Kreditdossiers – Produktseite [`creditflow.html`](creditflow.html) | https://creditflow-opal.vercel.app/ |
 | BauCheck | Baufortschritt bei Baukrediten per Fotonachweis prüfen | https://bau-check-one.vercel.app/ |
 | KYC & Compliance Workbench | Onboarding Firmenkunden, AML-Alarmprüfung, KYC-Überprüfung | https://banking-solutions-6ils.vercel.app/ (Quellcode in [`kyc-workbench/`](kyc-workbench/)) |
 | Bank Academy | Digitales Praxistraining für Schweizer Banking (eigenes Repository `evins02/BankAcademy`) | https://bankacademy.ch/ |
@@ -24,6 +24,7 @@ Einen Eintrag in `solutions.js` ergänzen:
   features: ['Stichwort 1', 'Stichwort 2'],
   url: 'https://…vercel.app',
   status: 'live',        // oder 'planned' (Kachel ohne Link)
+  page: 'name',          // optional: eigene Produktseite name.html im Portal
   icon: 'chart',         // folder | building | plus | chart | academy
   accent: '#1546d6',
 }

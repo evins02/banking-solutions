@@ -16,7 +16,8 @@
   function card(s) {
     var live = s.status === 'live' && s.url;
     var tag = live ? 'a' : 'div';
-    var attrs = live ? ' href="' + esc(s.url) + '" target="_blank" rel="noopener"' : ' aria-disabled="true"';
+    var href = s.page ? s.page + '.html' : s.url;
+    var attrs = live ? ' href="' + esc(href) + '"' + (s.page ? '' : ' target="_blank" rel="noopener"') : ' aria-disabled="true"';
     var feats = (s.features || []).map(function (f) { return '<li>' + esc(f) + '</li>'; }).join('');
     return (
       '<' + tag + ' class="card ' + (live ? 'live' : 'planned') + '" style="--accent:' + esc(s.accent || '#1546d6') + '"' + attrs + '>' +
@@ -28,7 +29,11 @@
         '<p class="tagline">' + esc(s.tagline) + '</p>' +
         '<p class="desc">' + esc(s.description) + '</p>' +
         (feats ? '<ul class="feats">' + feats + '</ul>' : '') +
-        (live ? '<span class="open">' + esc(s.name) + ' öffnen <svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></span>' : '') +
+        (live
+          ? s.page
+            ? '<span class="open page">Mehr über ' + esc(s.name) + ' <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>'
+            : '<span class="open">' + esc(s.name) + ' öffnen <svg viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></svg></span>'
+          : '') +
       '</' + tag + '>'
     );
   }

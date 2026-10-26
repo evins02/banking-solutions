@@ -1,16 +1,18 @@
 /**
  * Lösungen im Portal. Neue Lösung = neuer Eintrag in dieser Liste.
  * status: 'live' (verlinkt) | 'planned' (Kachel ohne Link)
+ * page (optional): eigene Produktseite im Portal; die Kachel verlinkt dann dorthin statt direkt zur Demo.
  */
 window.SOLUTIONS = [
   {
     id: 'creditflow',
     name: 'CreditFlow',
-    tagline: 'Arbeitsassistent Immobilienfinanzierung',
+    tagline: 'Weniger Rückfragen. Bessere Kreditdossiers.',
     description:
-      'Führt Kundenstamm, Antrag und Unterlagen zusammen und prüft Kreditdossiers vor der Übergabe ans Credit Office in zehn Punkten auf Lücken und Widersprüche – jeder Wert mit Quelle. Rückfragen bleiben am Prüfpunkt nachvollziehbar.',
-    features: ['10 Prüfungen mit Quellenangabe', 'Fehlend · Widerspruch · nicht prüfbar', 'Rückfragen mit Einreichungsstand'],
+      'Browserbasierte Lösung, die Mitarbeitende bei der Vorbereitung und Qualitätsprüfung von Kreditdossiers unterstützt. Strukturierte Prüfungen, bankindividuelle Dokumentenchecklisten und automatische Datenabgleiche machen fehlende Angaben und formale Unstimmigkeiten früh sichtbar.',
+    features: ['Strukturierte Prüfungen', 'Bankindividuelle Checklisten', 'Automatische Datenabgleiche'],
     url: 'https://creditflow-opal.vercel.app/',
+    page: 'creditflow',
     status: 'live',
     icon: 'folder',
     accent: '#1546d6',
