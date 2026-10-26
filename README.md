@@ -7,6 +7,7 @@ Portalseite für Demo-Lösungen für Schweizer Banken. Verlinkt auf eigenständi
 | CreditFlow | Vorprüfung von Kreditdossiers | https://creditflow-opal.vercel.app/ |
 | BauCheck | Baufortschritt bei Baukrediten per Fotonachweis prüfen | https://bau-check-one.vercel.app/ |
 | KYC & Compliance Workbench | Onboarding Firmenkunden, AML-Alarmprüfung, KYC-Überprüfung | https://banking-solutions-6ils.vercel.app/ (Quellcode in [`kyc-workbench/`](kyc-workbench/)) |
+| Bank Academy | Digitales Praxistraining für Schweizer Banking (eigenes Repository `evins02/BankAcademy`) | https://bankacademy.ch/ |
 
 Reine statische Seite (HTML/CSS/JS), kein Build nötig. Ausnahme: `kyc-workbench/` ist eine eigenständige React-App mit eigenem Build (siehe deren README).
 
@@ -23,7 +24,7 @@ Einen Eintrag in `solutions.js` ergänzen:
   features: ['Stichwort 1', 'Stichwort 2'],
   url: 'https://…vercel.app',
   status: 'live',        // oder 'planned' (Kachel ohne Link)
-  icon: 'chart',         // folder | building | plus | chart
+  icon: 'chart',         // folder | building | plus | chart | academy
   accent: '#1546d6',
 }
 ```

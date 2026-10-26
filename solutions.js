@@ -37,7 +37,19 @@ window.SOLUTIONS = [
     url: 'https://banking-solutions-6ils.vercel.app/',
     status: 'live',
     icon: 'chart',
-    accent: '#0e1a36',
+    accent: '#2a4583',
+  },
+  {
+    id: 'bankacademy',
+    name: 'Bank Academy',
+    tagline: 'Digitales Praxistraining für Schweizer Banking',
+    description:
+      'Macht realitätsnahe Banksituationen digital erlebbar: interaktive Praxisfälle und simulierte Kundengespräche von KYC und Kontoeröffnung über Hypothek und Tragbarkeit bis zu Zahlungsverkehr und Anlageberatung – für Lernende, Praktikanten und Bankmitarbeitende.',
+    features: ['Interaktive Praxisfälle', 'Simulierte Kundengespräche', 'Für Lernende und Mitarbeitende'],
+    url: 'https://bankacademy.ch/',
+    status: 'live',
+    icon: 'academy',
+    accent: '#b45309',
   },
   {
     id: 'next',
